@@ -1,0 +1,24 @@
+/* Estilo personalizado para la tarjeta */
+.card-custom {
+    border-radius: 15px; /* Bordes redondeados para la tarjeta */
+    overflow: hidden; /* Para que el contenido no se desborde de los bordes redondeados */
+    width: 100px; /* Ancho fijo para las tarjetas */
+    padding: 20px; /* Padding para un espaciado interno atractivo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+}
+
+/* Estilo personalizado para la imagen dentro de la tarjeta */
+.card-img-custom {
+    object-fit: cover; /* Asegura que la imagen se ajuste adecuadamente */
+    max-height: 150px; /* Limita la altura máxima de la imagen */
+}
+
+/* Estilo personalizado para las insignias (badges) */
+.badge-custom {
+    margin-right: 5px; /* Espacio entre badges */
+    padding: 5px 10px; /* Espaciado interno de los badges */
+    border-radius: 12px; /* Bordes redondeados para los badges */
+    font-size: 0.9rem; /* Tamaño de fuente de los badges */
+    color: #fff; /* Color del texto de los badges */
+}
